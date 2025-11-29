@@ -1,314 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Avios.Creditcard – Avios Rewards & Credit Cards</title>
-  <meta name="description"
-        content="Neutral guide to Avios: how Avios points work across multiple airlines, how status links in, and how credit cards help you earn more Avios."/>
-  <meta name="robots" content="index,follow"/>
-  <link rel="canonical" href="https://avios.creditcard/"/>
+  <title>Avios.Creditcard – Avios Airline Points & Credit Cards Explained</title>
+  <meta name="description" content="Understand how Avios-linked credit cards work: earning Avios from spending, transferring between airlines, redeeming for flights and upgrades, plus fees and value considerations." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://avios.creditcard/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Avios.Creditcard – Avios Rewards & Credit Cards"/>
-  <meta property="og:description"
-        content="Understand Avios as a shared loyalty currency: earning, redemptions, partner airlines and how credit cards feed into Avios balances."/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://avios.creditcard/"/>
-  <meta property="og:image"
-        content="https://choose.creditcard/preview.png?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=og_image"/>
+  <meta property="og:title" content="Avios.Creditcard – Avios Airline Points & Credit Cards Explained" />
+  <meta property="og:description" content="Independent overview of Avios-based airline credit cards — how you earn, move and redeem Avios across partner airlines, and what to compare before choosing a card." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://avios.creditcard/" />
+  <meta property="og:image" content="https://choose.creditcard/preview.png?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=og_image" />
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="Avios.Creditcard – Avios Rewards & Credit Cards"/>
-  <meta name="twitter:description"
-        content="How Avios points, airline partners, status and redemptions work — plus how credit cards help you earn Avios faster."/>
-  <meta name="twitter:image"
-        content="https://choose.creditcard/preview.png?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=twitter_image"/>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Avios.Creditcard – Avios Airline Loyalty & Cards" />
+  <meta name="twitter:description" content="Learn how Avios airline credit cards convert everyday spend into points you can redeem for flights, upgrades and partner redemptions across multiple carriers." />
+  <meta name="twitter:image" content="https://choose.creditcard/preview.png?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=twitter_image" />
 
   <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FE63JQ3H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag("js", new Date());
-    gtag("config", "G-64FE63JQ3H");
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-64FE63JQ3H');
   </script>
 
-  <link rel="stylesheet" href="./styles.css"/>
+  <!-- Tailwind for utility classes -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Your shared minisite styles -->
+  <link rel="stylesheet" href="./styles.css" />
 </head>
-
 <body class="bg-slate-950 text-slate-100">
-
-<header class="site-header">
-  <div class="nav-inner max-w-6xl">
-    <a class="brand"
-       href="https://choose.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=header_brand"
-       style="color:inherit;text-decoration:none;">
-      <div class="cc-logo">CC</div>
-      <div class="brand-text">
-        <div class="brand-title">Avios.Creditcard</div>
-        <div class="brand-subtitle">Avios Loyalty Currency &amp; Cards</div>
+  <header class="site-header">
+    <div class="nav-inner max-w-6xl">
+      <div class="brand">
+        <div class="cc-logo">CC</div>
+        <div class="brand-text">
+          <div class="brand-title">Avios.Creditcard</div>
+          <div class="brand-subtitle">Avios Airline Points & Loyalty Cards</div>
+        </div>
       </div>
-    </a>
-    <nav class="nav-links">
-      <a href="#overview">Overview</a>
-      <a href="#earning">Earning</a>
-      <a href="#redeem">Redemptions</a>
-      <a href="#cards">Credit Cards</a>
-    </nav>
-  </div>
-</header>
-
-<main class="cc-page">
-
-  <!-- Breadcrumb -->
-  <div class="cc-breadcrumb">
-    <a href="https://choose.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
-    &nbsp;›&nbsp;Avios
-  </div>
-
-  <!-- Hero -->
-  <section class="hero">
-    <h1>Avios: Shared Airline Currency &amp; Credit Cards</h1>
-    <p class="hero-lead">
-      Avios is a shared loyalty currency used by several airline programs. This guide explains how Avios are earned,
-      how redemptions work across different brands, how elite status ties in, and how credit cards can be one of the
-      fastest ways to build a meaningful Avios balance.
-    </p>
-    <a class="cta"
-       href="https://choose.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=hero_cta">
-      Best Cards for Earning Avios
-    </a>
-  </section>
-
-  <!-- 1. What the program is -->
-  <section id="overview" class="section">
-    <h2>1. What the Avios Ecosystem Is</h2>
-    <p>
-      Unlike a single-airline scheme, Avios is a <strong>shared points currency</strong> used by multiple airline
-      loyalty programs. Depending on your market, you may encounter Avios in programs such as:
-    </p>
-    <ul class="list">
-      <li>British Airways Executive Club</li>
-      <li>Iberia Plus</li>
-      <li>Aer Lingus AerClub</li>
-      <li>Vueling Club and other regional partners</li>
-    </ul>
-    <p>
-      In many cases, you can move Avios between these programs and redeem on Oneworld and other partners, giving the
-      currency a lot of flexibility for European and transatlantic travelers.
-    </p>
-  </section>
-
-  <!-- 2. How Avios are earned -->
-  <section id="earning" class="section">
-    <h2>2. How Avios Are Earned</h2>
-    <p>You earn Avios through:</p>
-    <ul class="list">
-      <li><strong>Flights</strong> on the airline linked to your specific Avios-issuing program (for example BA, Iberia or Aer Lingus).</li>
-      <li><strong>Oneworld partner flights</strong> credited to your chosen Avios account.</li>
-      <li><strong>Co-branded credit cards</strong> that earn Avios on every purchase.</li>
-      <li><strong>Hotels, car rentals and shopping portals</strong> that award Avios.</li>
-      <li><strong>Occasional promotions</strong> that provide bonus Avios on specific routes or partners.</li>
-    </ul>
-    <p>
-      For many Avios users, most of the balance comes from credit card spend and shopping partners rather than flights alone.
-    </p>
-  </section>
-
-  <!-- 3. How cards boost earnings -->
-  <section class="section">
-    <h2>3. How Credit Cards Boost Avios Earning</h2>
-    <p>
-      Avios-linked credit cards let you turn everyday spending into Avios. Depending on the card and market, you may see:
-    </p>
-    <ul class="list">
-      <li><strong>Flat earn rates</strong> on general purchases.</li>
-      <li><strong>Bonus categories</strong> like travel, groceries or online shopping.</li>
-      <li><strong>Welcome bonuses</strong> after reaching a minimum spend threshold.</li>
-      <li><strong>Companion vouchers or upgrade certificates</strong> when you spend above certain annual levels.</li>
-    </ul>
-    <p>
-      Used strategically, these cards can generate enough Avios for long-haul flights even if you do not fly frequently.
-    </p>
-  </section>
-
-  <!-- 4. Redemption categories -->
-  <section id="redeem" class="section">
-    <h2>4. Redemption Categories Using Avios</h2>
-    <p>Avios can typically be redeemed for:</p>
-    <ul class="list">
-      <li><strong>Short-haul flights</strong> within Europe or regional networks, often a sweet spot for value.</li>
-      <li><strong>Long-haul flights</strong> in economy, premium or business class.</li>
-      <li><strong>Upgrades</strong> from one cabin to the next on eligible fares.</li>
-      <li><strong>Part-pay with Avios</strong> – reducing the cash price of a ticket.</li>
-      <li><strong>Other travel rewards</strong> such as hotels or cars in some markets.</li>
-    </ul>
-    <p>
-      The exact options and value depend on which Avios program you use (BA Exec Club vs Iberia Plus, etc.), but the
-      underlying currency is the same.
-    </p>
-  </section>
-
-  <!-- 5. Elite tiers (program-specific) -->
-  <section class="section">
-    <h2>5. Elite Status Tiers in Avios Programs</h2>
-    <p>
-      Avios itself is just a currency, while <strong>status tiers</strong> live inside the individual programs that
-      use Avios. As an example, British Airways Executive Club has:
-    </p>
-    <ul class="list">
-      <li><strong>Blue</strong> – entry level.</li>
-      <li><strong>Bronze</strong> – basic priority benefits.</li>
-      <li><strong>Silver</strong> – lounge access and enhanced perks.</li>
-      <li><strong>Gold</strong> – top published tier with maximum benefits.</li>
-    </ul>
-    <p>
-      Other Avios-issuing programs have their own tier names and rules, but the structure is similar: the more you fly
-      (and sometimes the more you spend on co-branded cards), the higher your recognition and travel benefits.
-    </p>
-  </section>
-
-  <!-- 6. Key Program Features table -->
-  <section class="section">
-    <h2>6. Key Avios Ecosystem Features</h2>
-    <div class="table-wrap">
-      <table class="table">
-        <thead>
-        <tr>
-          <th>Feature</th>
-          <th>How It Works</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td>Program Type</td>
-          <td>Shared airline loyalty currency used by multiple programs.</td>
-        </tr>
-        <tr>
-          <td>Core Currency</td>
-          <td>Avios points used for flights, upgrades and other rewards.</td>
-        </tr>
-        <tr>
-          <td>Earning Channels</td>
-          <td>Flights, co-branded credit cards, hotels, partners and shopping.</td>
-        </tr>
-        <tr>
-          <td>Redemption Options</td>
-          <td>Short- and long-haul flights, upgrades, part-pay with points, other travel items.</td>
-        </tr>
-        <tr>
-          <td>Elite Tiers</td>
-          <td>Defined at the individual program level (e.g. BA Blue/Bronze/Silver/Gold).</td>
-        </tr>
-        <tr>
-          <td>Alliance Links</td>
-          <td>Oneworld and partner networks via each Avios-issuing airline.</td>
-        </tr>
-        </tbody>
-      </table>
+      <nav class="nav-links" aria-label="Page navigation">
+        <a href="#overview">Overview</a>
+        <a href="#earning">Earning Avios</a>
+        <a href="#redeeming">Redeeming Avios</a>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <!-- 7. Internal cluster links -->
-  <section id="cards" class="section">
-    <h2>7. Other Airline &amp; Loyalty Programs in This Cluster</h2>
-    <p>
-      Avios competes and overlaps with several other airline programs covered in The CreditCard Collection:
-    </p>
-    <div class="cluster-grid">
-      <a class="cluster-card"
-         href="https://eurobonus.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=cluster_eurobonus">
-        <h3>EuroBonus.Creditcard</h3>
-        <p>SAS EuroBonus points and Star Alliance redemptions.</p>
-      </a>
-      <a class="cluster-card"
-         href="https://skymiles.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=cluster_skymiles">
-        <h3>SkyMiles.Creditcard</h3>
-        <p>Delta SkyMiles earning, Medallion status and partner flights.</p>
-      </a>
-      <a class="cluster-card"
-         href="https://mileageplus.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=cluster_mileageplus">
-        <h3>MileagePlus.Creditcard</h3>
-        <p>United MileagePlus and Star Alliance options.</p>
-      </a>
-      <a class="cluster-card"
-         href="https://aadvantage.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=cluster_aadvantage">
-        <h3>AAdvantage.Creditcard</h3>
-        <p>American Airlines AAdvantage and Oneworld rewards.</p>
-      </a>
-      <a class="cluster-card"
-         href="https://flyingblue.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=cluster_flyingblue">
-        <h3>FlyingBlue.Creditcard</h3>
-        <p>AF–KLM Flying Blue, XP status and Promo Rewards.</p>
-      </a>
-      <a class="cluster-card"
-         href="https://comparecc.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=cluster_comparecc">
-        <h3>CompareCC.Creditcard</h3>
-        <p>Loyalty program comparison hub across airline, hotel and bank schemes.</p>
-      </a>
+  <main class="cc-page">
+    <!-- Breadcrumb -->
+    <div class="cc-breadcrumb">
+      <a href="https://choose.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
+      &nbsp;›&nbsp;
+      Avios.Creditcard
     </div>
-  </section>
 
-  <!-- 8. CTA to Choose.Creditcard -->
-  <section class="section">
-    <h2>8. Best Cards for Earning Avios</h2>
-    <p class="small">
-      The best Avios strategy depends on which airline you actually fly, where you live and how much of your spending
-      you want to route through a co-branded card.
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>How Avios Airline Credit Cards Turn Spending Into Flights</h1>
+        <p class="hero-lead">
+          Avios is a shared airline points currency used across several carriers. This page explains how Avios-linked credit cards earn points, how transfers work between partner programs, and what to check before you pick an Avios card.
+        </p>
+        <a class="cta" href="https://choose.creditcard/travel/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=hero_cta">
+          Compare travel & Avios-friendly cards
+        </a>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section id="overview" class="section">
+      <h2>What Is Avios and How Do Credit Cards Fit In?</h2>
+      <p>Avios is a points currency used by several airline and travel brands. Instead of earning separate miles for each airline, you collect Avios and then redeem them within a participating program for flights, upgrades, hotels or other travel rewards.</p>
+      <p>Credit cards tied to Avios programs allow you to build balances faster by awarding Avios on everyday spending. Depending on the issuer and region, you may also earn Avios bonuses on specific categories such as travel, dining or foreign transactions.</p>
+    </section>
+
+    <!-- Earning -->
+    <section id="earning" class="section">
+      <h2>How Avios Credit Cards Earn Points</h2>
+      <p>Most Avios cards pay a base earn rate for all purchases, plus enhanced rates on selected categories. For example, you might earn more Avios on flights booked with a partner airline, on hotel stays, or when spending in foreign currencies.</p>
+      <p>Introductory sign-up bonuses are common: reach a minimum spend within a set period and you receive a lump sum of Avios. Some cards also provide annual bonuses, companion vouchers or status-related benefits if you cross specific spending thresholds.</p>
+    </section>
+
+    <!-- Redeeming -->
+    <section id="redeeming" class="section">
+      <h2>Redeeming Avios for Flights and Upgrades</h2>
+      <p>Avios are typically redeemed for flights, cabin upgrades or part-payment on cash tickets. The number of Avios required depends on route distance, cabin class, peak vs. off-peak dates and which partner airline operates the flight.</p>
+      <p>In many programs, long-haul business or premium economy redemptions can deliver significantly higher value per Avios than short-haul economy flights. However, taxes, fees and carrier-imposed surcharges still apply and can vary by route and airline.</p>
+    </section>
+
+    <!-- Transfers & Partner Use -->
+    <section class="section">
+      <h2>Moving Avios Between Partner Programs</h2>
+      <p>One distinctive feature of Avios is the ability, in many cases, to move points between participating brands’ accounts. This flexibility lets you consolidate balances where you see the best redemption opportunities, or shift Avios to align with a specific trip.</p>
+      <p>Transfer rules, minimum amounts and supported directions depend on each program. Before moving Avios, it is wise to check whether redemptions you want are actually available in the target program, and whether any transfer limitations or delays could affect your plans.</p>
+    </section>
+
+    <!-- Value & Considerations -->
+    <section class="section">
+      <h2>Key Factors That Impact the Value of Avios</h2>
+      <ul class="list">
+        <li><strong>Route choice:</strong> Some routes and cabins give a much higher value per Avios than others.</li>
+        <li><strong>Peak vs. off-peak:</strong> Award charts often charge fewer Avios on off-peak dates.</li>
+        <li><strong>Fees & surcharges:</strong> “Taxes and fees” can make an Avios ticket less attractive on certain routes.</li>
+        <li><strong>Expiry rules:</strong> Inactivity in your account may eventually cause Avios to expire, depending on the program.</li>
+        <li><strong>Card fees:</strong> Annual fees and FX fees on the card itself affect net value from your Avios earnings.</li>
+      </ul>
+    </section>
+
+    <!-- Comparison style table -->
+    <section class="section">
+      <h2>What to Compare When Choosing an Avios Credit Card</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Criterion</th>
+              <th>What to Look At</th>
+              <th>Why It Matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Earn Rates</td>
+              <td>Base Avios per unit of spend, bonus categories, airline/travel multipliers</td>
+              <td>Determines how quickly your Avios balance grows from normal usage.</td>
+            </tr>
+            <tr>
+              <td>Sign-Up & Annual Bonuses</td>
+              <td>Welcome Avios, spend-triggered bonuses, companion vouchers</td>
+              <td>Can accelerate value early, but often tied to minimum spend requirements.</td>
+            </tr>
+            <tr>
+              <td>Redemption Flexibility</td>
+              <td>Partner airlines, off-peak pricing, upgrade options</td>
+              <td>Affects how easily you can turn Avios into flights that fit your real travel.</td>
+            </tr>
+            <tr>
+              <td>Fees & FX Charges</td>
+              <td>Annual fee, foreign transaction fees, additional cardholder costs</td>
+              <td>High fees can erode the effective value of the Avios you earn.</td>
+            </tr>
+            <tr>
+              <td>Integration With Your Travel Pattern</td>
+              <td>Airports and routes you actually use, cabin preferences, trip frequency</td>
+              <td>Ensures you can practically redeem Avios, not just accumulate them.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small">
+        For broader travel and FX card comparisons, visit
+        <a href="https://choose.creditcard/travel/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=comparison_section">
+          Choose.Creditcard
+        </a>.
+      </p>
+    </section>
+
+    <!-- Cluster links -->
+    <section class="section">
+      <h2>Explore Related Airline & Travel Reward Microsites</h2>
+      <div class="cluster-grid">
+        <a class="cluster-card" href="https://flyingblue.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=cluster_flyingblue">
+          <h3>FlyingBlue.Creditcard</h3>
+          <p>Joint airline loyalty programs and how shared miles work across carriers.</p>
+        </a>
+        <a class="cluster-card" href="https://eurobonus.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=cluster_eurobonus">
+          <h3>EuroBonus.Creditcard</h3>
+          <p>Loyalty cards linked to airline and hotel ecosystems in one program.</p>
+        </a>
+        <a class="cluster-card" href="https://skymiles.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=cluster_skymiles">
+          <h3>SkyMiles.Creditcard</h3>
+          <p>Frequent-flyer cards converting everyday spend into airline miles.</p>
+        </a>
+        <a class="cluster-card" href="https://travelrewards.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=cluster_travelrewards">
+          <h3>TravelRewards.Creditcard</h3>
+          <p>Flexible travel-rewards cards for people who mix airlines and routes.</p>
+        </a>
+        <a class="cluster-card" href="https://traveler.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=cluster_traveler">
+          <h3>Traveler.Creditcard</h3>
+          <p>Cards built for frequent travellers who value broad airline choice.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Collection section -->
+    <section class="section">
+      <h2>Part of The CreditCard Collection</h2>
+      <p class="small">
+        Avios.Creditcard is one spoke in <strong>The CreditCard Collection</strong> — a network of focused microsites operated by ronarn AS. Each site covers a single concept, then points you to independent tools where you can compare real cards and offers.
+      </p>
+      <p class="small">
+        We do not issue cards or manage Avios programs. This page summarises how Avios-linked credit cards typically work so you can read official terms and conditions with more context.
+      </p>
+      <p class="small">
+        This content is educational only and not financial, tax or travel advice. Always confirm current rules and pricing with the relevant airline and card issuer.
+      </p>
+
+      <!-- REQUIRED HUB SNIPPET – Travel & FX hub -->
+      <div class="hub-link">
+        <a href="https://choose.creditcard/travel/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=minisite_to_hub"
+           class="text-sm text-slate-600 hover:text-slate-900">
+          Learn more at the Travel &amp; FX hub
+        </a>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="section">
+      <h2>Ready to Compare Avios-Friendly Travel Cards?</h2>
+      <p class="small">
+        Use Avios.Creditcard to understand the mechanics — then visit the main Travel &amp; FX hub to compare specific cards, fees and reward structures side by side.
+      </p>
+      <a class="cta" href="https://choose.creditcard/travel/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
+        Go to the Travel &amp; FX hub
+      </a>
+    </section>
+  </main>
+
+  <footer class="mini-footer">
+    <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
+    <p class="mini-footer-contact">
+      Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
     </p>
-    <p class="small">
-      For a neutral view of travel and rewards cards — including fees, protections and how they map into Avios and
-      competing loyalty currencies — start with the main comparison hub.
-    </p>
-    <a class="cta"
-       href="https://choose.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
-      Best Cards for Earning Avios
-    </a>
-  </section>
-
-  <!-- Collection -->
-  <section class="section">
-    <h2>Part of The CreditCard Collection</h2>
-    <p class="small">
-      Avios.Creditcard is one of several focused minisites in <strong>The CreditCard Collection</strong>, a network of
-      neutral guides operated by ronarn AS.
-    </p>
-    <p class="small">
-      Each minisite explains a single loyalty program or currency in clear, practical language, so you can decide how
-      (or if) it fits into your travel strategy.
-    </p>
-    <p class="small">
-      For detailed credit card comparisons, visit
-      <a href="https://choose.creditcard/?utm_source=avios.creditcard&utm_medium=referral&utm_campaign=collection_section">
-        Choose.Creditcard
-      </a>.
-    </p>
-  </section>
-
-</main>
-
-<footer class="mini-footer">
-  <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
-
-  <p class="mini-footer-contact">
-    Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
-  </p>
-
-  <nav class="mini-footer-legal">
-    <a href="https://privacy.creditcard" target="_blank" rel="noopener">Privacy</a> ·
-    <a href="https://terms.creditcard" target="_blank" rel="noopener">Terms</a> ·
-    <a href="https://disclaimer.creditcard" target="_blank" rel="noopener">Disclaimer</a> ·
-    <a href="https://disclosure.creditcard" target="_blank" rel="noopener">Affiliate Disclosure</a> ·
-    <a href="https://policies.creditcard" target="_blank" rel="noopener">Policies</a>
-  </nav>
-
-  <p class="mini-footer-note">
-    Independent information — not financial advice. Always verify issuer terms.
-  </p>
-</footer>
-
+  </footer>
 </body>
 </html>
